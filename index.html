@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Startup</title>
+
+     <!-- Required meta tags -->
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!--with this tag, it lets the code know that this website should work on mobiles and scrolling, zooming, etc. should wrk.--><!--meta tag allows us to add new info to our website-->
+
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Your own stylesheet -->
+    <link rel="stylesheet" type="text/css" href="index.css">
+  </head>
+  <body>
+    <div class="container d-flex align-items-center h-100"> <!-- dflex and align items center would not work as container only covers the upper part so to cover full page we will add h100-->
+      <div class="row">
+        <header class="text-center col-12"><!--after this hr disappears so to bring it back we add section-->
+          <h1 class="text-uppercase"><strong>The biggest startup event of the year</strong></h1> <!--in bootstrap we can use class="text-uppercase" to convert all our text into caps-->
+        </header>
+        <div class="buffer col-12"></div>
+        <section class="text-center col-12"><!--col-12 is added for bootstrap to make use of grid sys and centralize our button-->
+        <hr>
+        <a href="https://mailchi.mp/a57e2e43284f/rrfincorp">
+<button class="btn btn-primary btn-xl">Find out more</button> <!--btn-xl isnt a bootstrap cmnd so nthin will happen if we write it here, so we go to css and customize our btn-xl there-->
+</a>
+      </div>
+    </div>
+ </body>
+</html>
